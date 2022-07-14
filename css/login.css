@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    /* background-image: url('../img/showcase2.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Numans', sans-serif;
+}
+
+.user-img {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.user-img img {
+    width: 200px;
+    height: 200px;
+}
+
+.modal-content {
+    background-color: rgba(21, 216, 3, 0.5) !important;
+    box-shadow: 0 0 5px 5px hsla(249, 100%, 36%, 0.557);
+}
+
+.main {
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 15%;
+    padding: 0;
+}
+
+
+@media (max-width: 600px) {
+
+    body {
+        
+        background-size: cover;
+    }
+}

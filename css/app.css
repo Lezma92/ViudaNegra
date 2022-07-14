@@ -1,0 +1,653 @@
+::-webkit-file-upload-button {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  padding: 0.7rem;
+  color: #FFF;
+  background: rgba(4, 174, 128, 0.7);
+  border-radius: 13px;
+}
+::-webkit-file-upload-button:hover {
+  border-radius: 0;
+  background: #FFF;
+  color: #000;
+}
+
+input[type=file] {
+  transition: 0.4s ease;
+  height: auto;
+  background: transparent;
+  color: transparent;
+  border: 1px dotted #bbb;
+  border-radius: 24px;
+}
+input[type=file]:hover {
+  border-radius: 0;
+  background: #FFF;
+  color: #000;
+}
+
+.not-pdd {
+  padding: 0 !important;
+}
+
+.blue {
+  color: #0d3088;
+}
+
+.red {
+  color: #d3272d;
+}
+
+.green {
+  color: #04AE80;
+}
+
+#icon {
+  max-width: 50%;
+}
+
+.sidebar .nav-item .nav-link:active, .sidebar .nav-item .nav-link:focus, .sidebar .nav-item .nav-link:hover,
+.sidebar .nav-item .nav-link {
+  transition: 0.4s ease;
+  max-width: 100%;
+  color: #FFF;
+}
+.sidebar .nav-item .nav-link:active:hover, .sidebar .nav-item .nav-link:focus:hover, .sidebar .nav-item .nav-link:hover:hover,
+.sidebar .nav-item .nav-link:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.card_shadow {
+  box-shadow: 5px 5px 15px 5px rgba(13, 48, 136, 0.22);
+}
+
+.btn-primary {
+  background-color: #0d3088;
+  box-shadow: none;
+  border-color: transparent;
+}
+
+.btn-danger {
+  background-color: #d3272d !important;
+  box-shadow: none;
+  color: #FFF !important;
+  border-color: transparent;
+}
+
+.btn-secondary {
+  background-color: #383838 !important;
+}
+
+#sidebarToggle {
+  transition: all 0.4s ease;
+}
+#sidebarToggle:hover {
+  transform: skewY(5deg);
+}
+
+.card-img-top {
+  height: 100px;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+.banner {
+  padding: 0;
+}
+
+.border-custom {
+  border: 1px solid #04AE80;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.13);
+}
+
+.breadcrumb {
+  background-color: rgba(13, 48, 136, 0.2);
+  border-radius: 0;
+}
+.breadcrumb .breadcrumb-item a {
+  color: #000;
+  font-weight: 700;
+}
+.breadcrumb > .active {
+  color: #000;
+}
+
+.card_carrera {
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.27);
+  transition: 0.4s ease;
+}
+
+.welcome_user {
+  color: #0d3088;
+  font-weight: 700;
+}
+
+input[type=button]:hover,
+input[type=submit]:hover,
+input[type=reset]:hover {
+  background-color: #0d3088;
+}
+
+#inputEmail,
+#inputPassword {
+  border-radius: 0;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #04AE80;
+}
+
+.underlineHover {
+  position: relative;
+}
+.underlineHover::after {
+  position: absolute;
+  bottom: 0;
+  background-color: #04AE80;
+  transition: width 0.35s;
+}
+
+.button_modificar,
+.button_eliminar {
+  transition: 0.4s ease;
+  color: #FFF;
+  border-radius: 0;
+}
+.button_modificar:hover,
+.button_eliminar:hover {
+  background-color: #FFF;
+  border: 1px solid;
+}
+
+.button_descargar {
+  background-color: #04AE80 !important;
+  color: #FFF !important;
+  border-color: transparent;
+}
+
+.button_modificar {
+  background-color: #0d3088;
+}
+.button_modificar:hover {
+  color: #0d3088;
+}
+
+.button_eliminar {
+  background-color: #d3272d;
+}
+.button_eliminar:hover {
+  color: #d3272d;
+}
+
+#formContent {
+  overflow: hidden !important;
+  color: transparent;
+}
+
+.logo_ut {
+  height: 200px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-origin: content-box;
+  background-position: center;
+}
+
+#bg_image {
+  background-size: cover;
+}
+#bg_image .wrapper #formContent ._titulo {
+  font-size: 1.5em;
+  padding-top: 1rem;
+  margin-top: 5px;
+  color: #FFF;
+}
+#bg_image .wrapper #formFooter {
+  padding: 13px 25px;
+}
+
+.modal .modal-dialog .modal-content {
+  border-top: 5px solid #9271f6;
+  border-bottom: 5px solid #9271f6;
+}
+.modal .modal-dialog .modal-content .modal-header {
+  border-radius: 0;
+}
+.modal .modal-dialog .modal-content .modal-header .close {
+  outline: none;
+}
+.modal .modal-dialog .modal-content .modal-header .close .equis {
+  font-weight: 300;
+  color: #FFF;
+  font-size: 1.25em;
+}
+.modal .modal-dialog .modal-content .modal-header .modal-title {
+  font-weight: 700;
+}
+.modal .modal-dialog .modal-content .modal-header,
+.modal .modal-dialog .modal-content .modal-body {
+  background-color: #04AE80;
+}
+.modal .modal-dialog .modal-content .modal-body .button_registrar {
+  background-color: rgba(255, 255, 255, 0.7);
+  color: #000;
+}
+.modal .modal-dialog .modal-content .modal-body .button_registrar:hover {
+  background-color: rgba(13, 48, 136, 0.8);
+  color: #FFF;
+}
+.modal .modal-dialog .modal-content .modal-footer {
+  background-color: #04AE80;
+}
+
+.span_category {
+  color: #0d3088;
+  font-weight: 700;
+}
+
+.navbar {
+  justify-content: space-between;
+  background-color: #0d3088 !important;
+}
+.navbar .btn-link {
+  padding: 0;
+}
+
+.sidebar {
+  width: 0 !important;
+  transition: all 0.4s ease;
+}
+
+.sidebar.toggled {
+  width: 90px !important;
+  overflow: inherit;
+  z-index: 1030;
+}
+
+.carousel .carousel-inner .carousel-item .imagen_1,
+.carousel .carousel-inner .carousel-item .imagen_2,
+.carousel .carousel-inner .carousel-item .imagen_3,
+.carousel .carousel-inner .carousel-item .imagen_4 {
+  width: 100%;
+  height: 240px;
+  background-origin: content-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#wrapper #content-wrapper {
+  position: relative;
+}
+
+.sticky-bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #0d3088;
+  color: #FFF;
+  padding: 1rem;
+}
+
+footer.sticky-footer {
+  width: 100%;
+  background-color: #0d3088;
+  color: #FFF;
+}
+
+.footer .sticky-footer .copyright span {
+  line-height: 1.6;
+}
+
+#page-top .sidebar {
+  background-color: #0d3088;
+}
+
+.swal2-container:not(.swal2-top):not(.swal2-top-start):not(.swal2-top-end):not(.swal2-top-left):not(.swal2-top-right):not(.swal2-center-start):not(.swal2-center-end):not(.swal2-center-left):not(.swal2-center-right):not(.swal2-bottom):not(.swal2-bottom-start):not(.swal2-bottom-end):not(.swal2-bottom-left):not(.swal2-bottom-right):not(.swal2-grow-fullscreen) > .swal2-modal {
+  background-color: rgba(13, 48, 136, 0.9);
+  color: #FFF;
+}
+
+.swal2-content,
+.swal2-title {
+  color: #FFF !important;
+}
+
+.swal2-styled.swal2-confirm {
+  transition: 0.4s ease !important;
+  border: none !important;
+  border: 1px solid #FFF !important;
+  background-color: #0d3088 !important;
+  color: #FFF !important;
+}
+.swal2-styled.swal2-confirm:hover {
+  background-color: #FFF !important;
+  color: #0d3088 !important;
+}
+
+.swal2-container {
+  position: absolute !important;
+}
+
+.swal2-popup {
+  widows: 250px !important;
+}
+
+@media screen and (min-width: 375px) {
+  #page-top .card-img-top {
+    height: 130px;
+  }
+  #page-top .navbar {
+    padding: 1rem 1.5rem;
+  }
+  #page-top .navbar #sidebarToggle {
+    font-size: 1.1em;
+  }
+  #page-top .carousel .carousel-inner .carousel-item .imagen_1,
+#page-top .carousel .carousel-inner .carousel-item .imagen_2,
+#page-top .carousel .carousel-inner .carousel-item .imagen_3,
+#page-top .carousel .carousel-inner .carousel-item .imagen_4 {
+    height: 270px;
+  }
+}
+@media screen and (min-width: 425px) {
+  #page-top .copyright {
+    font-size: 0.95em;
+  }
+  #page-top .carousel .carousel-inner .carousel-item .imagen_1,
+#page-top .carousel .carousel-inner .carousel-item .imagen_2,
+#page-top .carousel .carousel-inner .carousel-item .imagen_3,
+#page-top .carousel .carousel-inner .carousel-item .imagen_4 {
+    height: 320px;
+  }
+  #page-top .card-img-top {
+    height: 120px;
+  }
+  #page-top .card_carrera {
+    max-width: 80%;
+    margin: auto;
+  }
+  #page-top #inputEmail,
+#page-top #inputPassword {
+    max-width: 60%;
+  }
+  #page-top #bg_image .wrapper #formContent ._titulo {
+    font-size: 1.7em;
+  }
+}
+@media screen and (min-width: 570px) {
+  #page-top .carousel .carousel-inner .carousel-item .imagen_1,
+#page-top .carousel .carousel-inner .carousel-item .imagen_2,
+#page-top .carousel .carousel-inner .carousel-item .imagen_3,
+#page-top .carousel .carousel-inner .carousel-item .imagen_4 {
+    height: 420px;
+  }
+  #page-top ._carreras {
+    max-width: 90%;
+    margin: auto;
+  }
+  #page-top .card_carrera {
+    max-width: 60%;
+    transition: 0.4s ease;
+  }
+  #page-top .card_carrera:hover {
+    border: 1px solid #04AE80;
+  }
+  #page-top #inputEmail,
+#page-top #inputPassword {
+    max-width: 50%;
+  }
+  #page-top ._repositorios {
+    max-width: 80%;
+  }
+  #page-top ._alumno_vertodos {
+    max-width: 75%;
+  }
+}
+@media screen and (min-width: 768px) {
+  ::-webkit-file-upload-button,
+input[type=file] {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #page-top .card_custom {
+    box-shadow: 5px 5px 15px 5px rgba(13, 48, 136, 0.2);
+    transition: 0.35s ease;
+  }
+  #page-top .card_custom:hover {
+    transform: scale(1.05);
+  }
+  #page-top .carousel .carousel-inner .carousel-item .imagen_1,
+#page-top .carousel .carousel-inner .carousel-item .imagen_2,
+#page-top .carousel .carousel-inner .carousel-item .imagen_3,
+#page-top .carousel .carousel-inner .carousel-item .imagen_4 {
+    height: 65vh;
+  }
+  #page-top .card-img-top {
+    height: 60px;
+  }
+  #page-top .card_carrera {
+    max-width: 100%;
+  }
+  #page-top .card_carrera:hover {
+    transform: scale(1.05);
+  }
+  #page-top ._alumno_cuenta {
+    max-width: 85%;
+  }
+  #page-top ._alumno_archivos {
+    max-width: 85%;
+  }
+  #page-top ._alumno_archivos .width_custom {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #page-top ._detalle_repo {
+    max-width: 90%;
+  }
+  #page-top ._repositorios {
+    max-width: 95%;
+  }
+  #page-top ._alumno_vertodos {
+    max-width: 90%;
+  }
+  #page-top ._espera_admin {
+    max-width: 85%;
+  }
+  #page-top ._usuarios .isSearch {
+    max-width: 90%;
+  }
+}
+@media screen and (min-width: 992px) {
+  #page-top body.sidebar-toggled footer.sticky-footer {
+    width: 100%;
+  }
+  #page-top .navbar {
+    padding: 1.5rem 5%;
+  }
+  #page-top .banner {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  #page-top ._carreras {
+    max-width: 80%;
+  }
+  #page-top .sidebar {
+    width: 225px !important;
+    overflow: hidden;
+    z-index: 1030;
+  }
+  #page-top .sidebar.toggled {
+    width: 0 !important;
+  }
+  #page-top ._usuarios .isSearch {
+    max-width: 85%;
+  }
+  #page-top ._alumno_archivos {
+    max-width: 65%;
+  }
+  #page-top ._alumno_archivos .width_custom {
+    max-width: 95%;
+  }
+  #page-top ._espera_admin {
+    max-width: 80%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #page-top .banner {
+    max-width: 80%;
+  }
+  #page-top ._alumno_archivos {
+    max-width: 60%;
+  }
+  #page-top .card-img-top {
+    height: 80px;
+  }
+  #page-top ._carreras {
+    max-width: 75%;
+  }
+  #page-top ._alumno_cuenta {
+    max-width: 65%;
+  }
+  #page-top ._agregar_rep_admin {
+    max-width: 80%;
+  }
+  #page-top ._addRepo {
+    max-width: 80%;
+  }
+  #page-top ._repositorios {
+    max-width: 95%;
+  }
+  #page-top ._detalle_repo {
+    max-width: 60%;
+  }
+  #page-top ._alumno_archivos {
+    max-width: 55%;
+  }
+  #page-top ._alumnos {
+    max-width: 85%;
+  }
+  #page-top ._alumnos .Tabla_alumnos {
+    max-width: 95% !important;
+  }
+  #page-top ._usuarios {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #page-top ._espera_admin {
+    max-width: 70%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #page-top .banner {
+    max-width: 60%;
+  }
+  #page-top .card_carrera:hover {
+    box-shadow: 5px 5px 15px 5px rgba(13, 48, 136, 0.52);
+    transform: scale(1.1);
+  }
+  #page-top .card-img-top {
+    height: 100px;
+  }
+  #page-top ._detalle_repo,
+#page-top ._usuarios,
+#page-top ._alumnos,
+#page-top .__alumnos {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #page-top ._espera_admin {
+    max-width: 60%;
+  }
+  #page-top ._alumno_cuenta {
+    max-width: 50%;
+  }
+  #page-top ._repositorios {
+    max-width: 85%;
+  }
+  #page-top ._agregar_rep_admin {
+    max-width: 70%;
+  }
+  #page-top ._detalle_repo .isSearch {
+    max-width: 80%;
+  }
+  #page-top ._alumno_archivos {
+    max-width: 50%;
+  }
+  #page-top ._addRepo {
+    max-width: 70%;
+  }
+  #page-top ._alumnos .Tabla_alumnos {
+    max-width: 93% !important;
+  }
+  #page-top ._alumno_vertodos {
+    max-width: 75%;
+  }
+}
+@media screen and (min-width: 1920px) {
+  #page-top .banner {
+    max-width: 50%;
+  }
+  #page-top ._alumno_cuenta {
+    max-width: 50%;
+  }
+  #page-top .card_carrera {
+    max-width: 85%;
+  }
+  #page-top ._carreras {
+    max-width: 65%;
+  }
+  #page-top ._especiales_admin,
+#page-top ._estadias_admin {
+    max-width: 65%;
+  }
+  #page-top ._espera_admin {
+    max-width: 50%;
+  }
+  #page-top ._alumno_vertodos {
+    max-width: 60%;
+  }
+  #page-top ._alumno_archivos .isSearch {
+    max-width: 75%;
+  }
+  #page-top ._proyectos {
+    max-width: 65%;
+  }
+  #page-top ._repositorios {
+    max-width: 70%;
+  }
+  #page-top ._addRepo {
+    max-width: 55%;
+  }
+  #page-top ._alumnos #table_id_wrapper {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #page-top ._alumnos #table_id_wrapper .Tabla_alumnos {
+    max-width: 95% !important;
+  }
+  #page-top ._detalle_repo {
+    max-width: 60%;
+  }
+  #page-top ._detalle_repo .isSearch {
+    max-width: 65%;
+  }
+  #page-top ._usuarios {
+    max-width: 60%;
+  }
+  #page-top ._usuarios .dataTables_wrapper {
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #page-top ._usuarios .dataTables_wrapper .isSearch {
+    max-width: 90%;
+  }
+}
